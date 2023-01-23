@@ -2,14 +2,15 @@ project:
   type: website
 
 website:
-  title: "timkoval.github.io"
+  title: "Tim's Blog"
   navbar:
     right:
-      - about.qmd
       - icon: github
-        href: https://github.com/
+        href: https://github.com/timkoval
       - icon: twitter
-        href: https://twitter.com
+        href: https://twitter.com/timk0val
+  open-graph: true
+  site-url: "https://timkoval.io/"
 format:
   html:
     theme: litera

@@ -1,14 +1,27 @@
 ---
-title: "timkoval.github.io"
+sidebar: false
 listing:
   contents: posts
   sort: "date desc"
   type: default
-  categories: true
+  categories: false
   sort-ui: false
   filter-ui: false
+  feed: true
+  fields: ["image", "title", "description", "date", "categories"]
 page-layout: full
-title-block-banner: true
+title-block-banner: false
 ---
 
+::: {layout="[21,79]" .profile-header}
 
+![](profile.jpg){.profile-pic}
+
+\
+\
+Hello, I'm Tim Koval.\
+I'm a Research and Development Engineer who loves to discover effective ways of building complex things. Mostly into Machine Learning, Robotics and all sorts of exciting R&D tasks where scientific outcomes are estimated.\
+[Email me](mailto:timkoval00@gmail.com) if you have anything to discuss and read more from the posts listed below.
+:::
+
+---
