@@ -1,1 +1,1 @@
-Sitemap: https://timkoval.github.io/sitemap.xml
+Sitemap: https://timkoval.io/sitemap.xml
