@@ -35,7 +35,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
@@ -109,24 +108,7 @@ ul.task-list li input[type="checkbox"] {
     <span class="navbar-title">Tim’s Blog</span>
     </a>
   </div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
-  <span class="navbar-toggler-icon"></span>
-</button>
-          <div class="collapse navbar-collapse" id="navbarCollapse">
-            <ul class="navbar-nav navbar-nav-scroll ms-auto">
-  <li class="nav-item compact">
-    <a class="nav-link" href="https://github.com/timkoval"><i class="bi bi-github" role="img">
-</i> 
- <span class="menu-text"></span></a>
-  </li>  
-  <li class="nav-item compact">
-    <a class="nav-link" href="https://twitter.com/timk0val"><i class="bi bi-twitter" role="img">
-</i> 
- <span class="menu-text"></span></a>
-  </li>  
-</ul>
-              <div id="quarto-search" class="" title="Search"></div>
-          </div> <!-- /navcollapse -->
+          <div id="quarto-search" class="" title="Search"></div>
       </div> <!-- /container-fluid -->
     </nav>
 </header>
@@ -140,21 +122,43 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<div class="profile-header quarto-layout-panel">
-<div class="quarto-layout-row quarto-layout-valign-top">
-<div class="quarto-layout-cell" style="flex-basis: 21.0%;justify-content: center;">
-<p><img src="profile.jpg" class="profile-pic img-fluid"></p>
+<div class="quarto-about-trestles column-page">
+  <div class="about-entity">
+    <img src="profile.jpg" class="about-image
+  round " style="height: 10em; width: 10em;">
+    <div class="about-links">
+  <a href="https://www.linkedin.com/in/timkoval/" class="about-link">
+    <i class="bi bi-linkedin"></i>
+     <span class="about-link-text">LinkedIn</span>
+  </a>
+  <a href="https://github.com/timkoval" class="about-link">
+    <i class="bi bi-github"></i>
+     <span class="about-link-text">GitHub</span>
+  </a>
+  <a href="https://twitter.com/timk0val" class="about-link">
+    <i class="bi bi-twitter"></i>
+     <span class="about-link-text">Twitter</span>
+  </a>
+  <a href="https://huggingface.co/timkoval" class="about-link">
+    <i class="bi bi-emoji-smile"></i>
+     <span class="about-link-text">Hugging Face</span>
+  </a>
+  <a href="mailto:aayushmnit@gmail.com" class="about-link">
+    <i class="bi bi-envelope"></i>
+     <span class="about-link-text">Email</span>
+  </a>
 </div>
-<div class="quarto-layout-cell" style="flex-basis: 79.0%;justify-content: center;">
+  </div>
+  <div class="about-contents"><div id="about-me">
 <p><br>
-<br>
 Hello, I’m Tim Koval.<br>
-I’m a Research and Development Engineer who loves to discover effective ways of building complex things. Mostly into Machine Learning, Robotics and all sorts of exciting R&amp;D tasks where scientific outcomes are estimated.<br>
+I’m a Research and Development Engineer who loves to discover effective ways of building complex things. Mostly into Machine Learning, Robotics and all sorts of exciting R&amp;D tasks with scientific outcomes being estimated.<br>
 <a href="mailto:timkoval00@gmail.com">Email me</a> if you have anything to discuss and read more from the posts listed below.</p>
+</div></div>
 </div>
-</div>
-</div>
+
 <hr>
+
 
 
 
@@ -256,13 +260,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
   toggleBodyColorPrimary();  
-  const icon = "";
-  const anchorJS = new window.AnchorJS();
-  anchorJS.options = {
-    placement: 'right',
-    icon: icon
-  };
-  anchorJS.add('.anchored');
   const clipboard = new window.ClipboardJS('.code-copy-button', {
     target: function(trigger) {
       return trigger.previousElementSibling;
