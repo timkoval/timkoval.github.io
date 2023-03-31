@@ -28,6 +28,9 @@ about:
     - icon: emoji-smile
       text: Hugging Face
       href: https://huggingface.co/timkoval
+    - icon: cup-straw
+      text: Buy Me a Coffee
+      href: https://www.buymeacoffee.com/timkoval
     - icon: envelope
       text: Email
       href: mailto:aayushmnit@gmail.com
