@@ -9,18 +9,36 @@ listing:
   filter-ui: false
   feed: true
   fields: ["image", "title", "description", "date", "categories"]
+about:
+  id: about-me
+  template: trestles
+  image: profile.jpg
+  image-shape: round
+  image-width: 10em
+  links:
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/timkoval/
+    - icon: github
+      text: GitHub
+      href: https://github.com/timkoval
+    - icon: twitter
+      text: Twitter
+      href: https://twitter.com/timk0val
+    - icon: emoji-smile
+      text: Hugging Face
+      href: https://huggingface.co/timkoval
+    - icon: envelope
+      text: Email
+      href: mailto:aayushmnit@gmail.com
 page-layout: full
 title-block-banner: false
 ---
 
-::: {layout="[21,79]" .profile-header}
-
-![](profile.jpg){.profile-pic}
-
-\
+:::{#about-me}
 \
 Hello, I'm Tim Koval.\
-I'm a Research and Development Engineer who loves to discover effective ways of building complex things. Mostly into Machine Learning, Robotics and all sorts of exciting R&D tasks where scientific outcomes are estimated.\
+I'm a Research and Development Engineer who loves to discover effective ways of building complex things. Mostly into Machine Learning, Robotics and all sorts of exciting R&D tasks with scientific outcomes being estimated.\
 [Email me](mailto:timkoval00@gmail.com) if you have anything to discuss and read more from the posts listed below.
 :::
 

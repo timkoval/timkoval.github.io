@@ -4,11 +4,12 @@ project:
 website:
   title: "Tim's Blog"
   navbar:
-    right:
-      - icon: github
-        href: https://github.com/timkoval
-      - icon: twitter
-        href: https://twitter.com/timk0val
+    search: true
+    # right:
+  #     - icon: github
+  #       href: https://github.com/timkoval
+  #     - icon: twitter
+  #       href: https://twitter.com/timk0val
   open-graph: true
   site-url: "https://timkoval.io/"
 format:
